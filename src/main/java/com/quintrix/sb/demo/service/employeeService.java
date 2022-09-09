@@ -1,6 +1,6 @@
-package com.quintrix.sb.service;
+package com.quintrix.sb.demo.service;
 
-import com.quintrix.sb.model.Employee;
+import com.quintrix.sb.demo.model.Employee;
 
 import java.util.List;
 

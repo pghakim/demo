@@ -1,6 +1,6 @@
-package com.quintrix.sb.service;
-import com.quintrix.sb.model.Employee;
-import com.quintrix.sb.dao.employeeDao;
+package com.quintrix.sb.demo.service;
+import com.quintrix.sb.demo.model.Employee;
+import com.quintrix.sb.demo.dao.employeeDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import java.util.List;
 

@@ -1,5 +1,5 @@
-package com.quintrix.sb.dao;
-import com.quintrix.sb.model.Employee;
+package com.quintrix.sb.demo.dao;
+import com.quintrix.sb.demo.model.Employee;
 import java.util.List;
 
 public interface employeeDao {

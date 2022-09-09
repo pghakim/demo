@@ -1,21 +1,24 @@
-package com.quintrix.sb.control;
+package com.quintrix.sb.demo.control;
 
 
-import com.quintrix.sb.model.Employee;
-import com.quintrix.sb.service.employeeService;
+import com.quintrix.sb.demo.model.Employee;
+import com.quintrix.sb.demo.service.employeeService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+@RequestMapping(path = "/start")
 public class EmployeeController {
+
 
     @Autowired
     employeeService empEmployeeService;
 
 
-    @GetMapping("/employeelist")
+    @GetMapping(path = "/employeelist")
     public List<Employee> getEmployees(){
         return empEmployeeService.getAllEmployees();
     }
